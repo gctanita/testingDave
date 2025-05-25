@@ -39,7 +39,7 @@ We are going to set up Dave to give answers based on this table:
 | Is married                    | YES OR NO | YES OR NO | YES OR NO | YES OR NO | YES       |
 | Interest                      | 6%        | 7%        | 8%        | 10%       | 9%        |
 
-I'm going to use the `deepseek-r1:7b` as a base, at the moment as a base, as it is really fast. We're not going to do rocket science here. We're just going to take the existing `deepseek-r1:7b` model and add our system prompt to it, and add to the system prompt the conditions from the table. 
+I'm going to use the `deepseek-r1:7b` as a base, as it is decently fast. We're not going to do rocket science here. We're just going to take the existing `deepseek-r1:7b` model and add our system prompt with the conditions from the table. 
 
 #### Steps:
 - Create a folder "my-dave-model"
@@ -75,10 +75,10 @@ success
 It is not a perfect prompt, and has huge oportunities for enhancements. Spoiler: It doesn't tell Dave what to do if the user is not eligible for any of the credits. 
 
 ## STEP-1: Interact with the bot to get a feeling on how it responds
-For this part, there’s not much science to it. Just put yourself in the user’s shoes—someone looking to get a loan—and start a conversation with the bot. See how it responds. Tweak the system prompt little by little until it mostly behaves the way you’d expect. It won’t be perfect, but aim for consistency in at least the typical scenarios.
+For this part, there’s not much science to it, however it is quite time consuming. Just put yourself in the user’s shoes — someone looking to get a loan — and start a conversation with the bot. See how it responds. Tweak the system prompt little by little until it mostly behaves the way you’d expect. It won’t be perfect, but aim for consistency in at least the typical scenarios.
 
 ## STEP-2: Identify the scenarios based on the business rules received
-At this point, we have a setup: a chatbot named Dave that will kind of talk to us, and that’s sort of perfect for testing—because sometimes it does what it's supposed to... and sometimes it doesn’t. Which is great, because we testers thrive in chaos.
+At this point, we have a setup: a chatbot named Dave that will kind of talk to us, and that’s sort of perfect for testing — because sometimes it does what it's supposed to... and sometimes it doesn’t. Which is great, because we testers thrive in chaos.
 
 In classic testing, we’d typically use a data table and derive test cases from it. Simple enough. Here's what that looks like for Dave:
 | Condition                     | Product_1 | Product_2 | Product_3 | Product_4 | Product_5 |
