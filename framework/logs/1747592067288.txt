@@ -1,0 +1,37 @@
+INFO: 	 SCENARIO: 	 40 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 USER:	 I want to borrow 1001 
+INFO: 	 DAVE:	 Got it! You’d like to borrow **$1001**. Since this amount exceeds $500 but is under $2000, let me ask you for your minimum age and monthly salary to determine the best fit for you. 
+INFO: 	 USER:	 I am 18 years old 
+INFO: 	 DAVE:	 You are 18 years old. Let me ask you about your monthly salary next so we can determine the best loan option together. 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	salary,user age 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 0
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 2
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 56.692 seconds 

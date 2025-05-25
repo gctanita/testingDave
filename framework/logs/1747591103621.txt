@@ -1,0 +1,47 @@
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 17 
+INFO: 	 DAVE:	 Thank you for sharing that! Now, could you please tell me your monthly salary? 
+INFO: 	 USER:	 I make 100 
+INFO: 	 DAVE:	 Alright, thanks for providing that information. Next up, how old are you? 
+INFO: 	 USER:	 I am 16 years old 
+INFO: 	 DAVE:	 Based on the provided information:
+
+- The individual wants to borrow $125, which fits within the range of Product_1 ($>100) but not Product_2 due to the salary being exactly $100 (assuming "bigger than" means strictly greater).
+- Their monthly salary is $100. If this must be strictly greater than $100 for Product_1, they don't qualify; similarly, it's below the required threshold for Product_2.
+- Age considerations: They are 16 years old, which disqualifies them from Products 3 and above as their minimum age requirements are higher.
+
+Without knowing their marital status, we can't fully assess interest rate criteria. However, based on the current information (borrowing $125 with a monthly salary of $100 at 16 years old), they do not qualify for any of the listed products under the strict interpretation of the criteria provided. It's possible that if "bigger than" is interpreted to include equal amounts or additional information about their financial situation, they might be eligible, but with the current data, no product applies.
+
+It would be advisable to seek clarification on the salary requirement and any other necessary details to proceed further accurately. 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 Scenario duration: 	 80.349 seconds 

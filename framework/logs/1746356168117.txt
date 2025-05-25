@@ -1,0 +1,7 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 I would suggest to you PRODUCT_X, that you will have to give back in A to B time. 
+INFO: 	 ACTUAL RESULT: 	 PRODUCT_X 
+INFO: 	 Scenario duration: 	 16.432 seconds 
+INFO: 	 EXPECTED RESULT: 	 Product_1 

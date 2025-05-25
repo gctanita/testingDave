@@ -1,0 +1,54 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 49 
+INFO: 	 USER:	 I want to borrow 550 
+INFO: 	 DAVE:	 Thank you! Now, could you please share your monthly salary? 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 Alright, let's move on step by step. You've provided the following information:
+
+- Loan amount desired: 550
+- Monthly salary: 151
+- Age: 26 (assuming as per the previous answer)
+
+Now, what is your marital status? 
+INFO: 	 USER:	 Yes, I am married 
+INFO: 	 DAVE:	 Based on your details:
+
+- Loan amount desired: 550
+- Monthly salary: 151
+- Age: 26
+- Marital status: Yes (married)
+
+Given these factors, the most suitable loan option is **Product 2**. It offers a loan sum between 100 and 1000 with minimal restrictions on age and requires a higher monthly salary than Product 1 but provides longer payback terms compared to Product 3. Since you are married, this also aligns with the requirements of Products 4 and 5, though your income may not meet their criteria.
+
+I would suggest to you **Product 2**, that you will have to give back in 3 to 9 months. 
+INFO: 	 EXPECTED RESULT: 	 Product_2,Product_3 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 1
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 1
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 Scenario duration: 	 57.332 seconds 

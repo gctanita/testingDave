@@ -1,0 +1,17 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 Great! Now let's find out your monthly salary so we can determine the best loan option for you. How much do you earn each month? 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 Alright, moving on to the next step. Now that I have your information, let's find out your age so we can determine which loan product is the best fit for you. How old are you?
+
+Please provide your age. 
+INFO: 	 USER:	 I am 25 years old 
+INFO: 	 DAVE:	 Is it possible for you to confirm whether you are currently married or single? 
+INFO: 	 USER:	 Yes, I am married 
+INFO: 	 DAVE:	 Based on the analysis of your financial situation, the best loan option for you is:
+
+**I would suggest to you Product_1**, which you will have to repay over a period between 3 and 6 months. 
+INFO: 	 Scenario duration: 	 53.957 seconds 
+INFO: 	 ACTUAL RESULT: 	 Product_1 
+INFO: 	 EXPECTED RESULT: 	 Product_1 

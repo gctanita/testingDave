@@ -1,0 +1,43 @@
+INFO: 	 SCENARIO: 	 20 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 USER:	 I want to borrow 50 
+INFO: 	 DAVE:	 Got it! You'd like to borrow between **$50** and **$100**. Great, let's continue with the questions to find the best fit for you. Next question: What is your monthly salary? 
+INFO: 	 USER:	 I make 100 
+INFO: 	 DAVE:	 Alright, moving on to your age. Please share your age so we can determine the best loan product for you.
+
+**Age:** Please provide your age in years. 
+INFO: 	 USER:	 I am 16 years old 
+INFO: 	 DAVE:	 I'm sorry, but I don’t see any products that match your request based on the information you’ve provided so far. Let me ask for one final piece of information: Are you married? This will help me provide the most accurate recommendation possible. 
+INFO: 	 USER:	 No, I am not married 
+INFO: 	 DAVE:	 I would suggest to you **Product_1**, that you will have to give back in 3 to 6 months. 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 1
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 1
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 85.831 seconds 

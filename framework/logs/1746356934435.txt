@@ -1,0 +1,33 @@
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 I'm sorry, but based on your information ($125), none of the products I have are a perfect fit. Typically, loan sums for these products start at $200 (for Product_3) and go up to higher amounts for others like Products 4 or 5.
+
+Let me know if you're open to considering a bit more, as some financial institutions might offer alternatives beyond the standard products I have listed. 
+INFO: 	 ACTUAL RESULT: 	 Product_3 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 	 - salary - 0 
+INFO: 	 
+USER METRICS 
+ 
+INFO: 	 	 - amount to borrow - 1 
+INFO: 	 	 - user age - 0 
+INFO: 	 	 - other - 1 
+INFO: 	 	 - marriage status - 0 
+INFO: 	 	 - salary - 0 
+INFO: 	 	 - otherList - UNKNOWN 
+INFO: 	 	 - user age - 0 
+INFO: 	 
+DAVE METRICS 
+[object Object] 
+INFO: 	 	 - Product_1 - 0 
+INFO: 	 	 - marriage status - 0 
+INFO: 	 	 - Product_2 - 0 
+INFO: 	 	 - amount to borrow - 0 
+INFO: 	 	 - Product_3 - 1 
+INFO: 	 	 - Product_5 - 0 
+INFO: 	 	 - other - 0 
+INFO: 	 	 - PRODUCT_X - 0 
+INFO: 	 Scenario duration: 	 14.602 seconds 
+INFO: 	 	 - otherList -  
+INFO: 	 	 - Product_4 - 0 

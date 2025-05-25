@@ -1,0 +1,43 @@
+INFO: 	 SCENARIO: 	 27 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 USER:	 I want to borrow 1001 
+INFO: 	 DAVE:	 Thank you for sharing that you would like to borrow $1001. Please go ahead and tell me your monthly salary, and I'll help determine the best loan option for you. 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 Alright, so far you've provided that you want to borrow $1001 and earn $151 per month. Now, let's continue with the next question: how old are you? Your age is crucial in determining your eligibility for certain loan products, as younger individuals might face different considerations compared to older ones. Once I have your age, I'll be able to refine our recommendations further.
+
+Please go ahead and share your age. 
+INFO: 	 USER:	 I am 25 years old 
+INFO: 	 DAVE:	 Great, let's proceed further! You mentioned you make $151 per month and are 25 years old. Based on your information, I will now ask for your marital status to help refine our recommendations.
+
+Please go ahead and share if you're married (yes or no). 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	user age,marriage status 
+INFO: 	 EXPECTED RESULT: 	 Product_3 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 2
+	 - marriage status - 1
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 56.607 seconds 

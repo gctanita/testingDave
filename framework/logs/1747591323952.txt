@@ -1,0 +1,41 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 21 
+INFO: 	 USER:	 I want to borrow 501 
+INFO: 	 DAVE:	 Great, that's helpful! Next, could you please share your approximate monthly salary? This will help us determine the best loan option for you. 
+INFO: 	 USER:	 I make 100 
+INFO: 	 DAVE:	 Based on your information so far—borrowing $501 with a monthly salary of $100—the minimum age requirement for eligibility is 16, but it's advisable to be over 18 to potentially qualify for better terms. Since this is your first application, starting at the minimum age will help initiate the process. Once you've provided all necessary details, we can reassess and consider higher ages if beneficial.
+
+I would suggest to you PRODUCT_2, which has a loan sum of more than $100 but less than $1000, monthly salary requirements of more than $150, and a minimum age requirement of 18. The interest rate is 7%. This product might offer better terms due to the higher income threshold and appropriate age range.
+
+You will have to pay back the loan in between 3 months to 9 months. 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 1
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 
+ACTUAL RESULT: 		 Product_2 
+INFO: 	 Scenario duration: 	 23.522 seconds 

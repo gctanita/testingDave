@@ -1,0 +1,43 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 SCENARIO: 	 8 
+INFO: 	 DAVE:	 Thank you for sharing that! Next, would you like to share your monthly salary? This will help determine your eligibility based on our internal criteria. 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 Alright, moving forward. How old are you?
+
+Thank you for sharing your monthly salary! Next, could you please share your age? This will help determine your eligibility based on our internal criteria. 
+INFO: 	 USER:	 I am 16 years old 
+INFO: 	 DAVE:	 Based on your information—borrowing amount of $125, a monthly salary of $101, age of 16, and unspecified marital status—the only suitable product is **Product 1**. It fits within the borrowing limit, has a minimum salary requirement that you barely meet ($101 > $100), meets your age requirement (≥16 years old), and does not specify marital status as a factor. The interest rate for Product 1 is 6%, which appears to be favorable given your circumstances.
+
+**I would suggest to you Product 1, that you will have to give back in 3 months.** 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 Scenario duration: 	 85.996 seconds 

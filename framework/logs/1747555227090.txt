@@ -1,0 +1,50 @@
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 DAVE:	 Thank you for providing that information. Now, could you please share your monthly salary? It would help me determine the best loan option for you. 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 Based on your information:
+
+- Loan amount: $125
+- Monthly salary: $101
+- Age: Not provided (needs to be at least 16)
+- Marital status: Not provided
+
+After reviewing the product criteria, none of the listed products fit perfectly for you because they require a higher minimum monthly salary than your current income. Specifically:
+
+- **Product 1**: Requires more than $100 in monthly salary but needs to be above $100 and meet other conditions.
+- **Product 2**: Requires more than $150, which is not met.
+- **Products 3, 4, and 5**: All require a higher minimum monthly salary.
+
+Since your monthly income does not meet the requirements for any of these products, I would suggest considering other loan options that might be better suited to your situation or ensuring you can increase your income to meet the necessary criteria. 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 
+ACTUAL RESULT: 	 Product_1 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 Scenario duration: 	 42.66 seconds 

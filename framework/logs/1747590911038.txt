@@ -1,0 +1,41 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 10 
+INFO: 	 USER:	 I want to borrow 50 
+INFO: 	 DAVE:	 That sounds good! What’s your monthly salary? 
+INFO: 	 USER:	 I make 100 
+INFO: 	 DAVE:	 I'm sorry to hear that none of the available loan products perfectly match your request. Based on the details you've provided—asking for $50 with a monthly salary of $100—I couldn't find any product that fits within those parameters. It looks like you may need to consider options outside our current offerings or check if there's another product that could be a better fit. If such an opportunity arises, I’d be happy to help explore further options for you. 
+INFO: 	 USER:	 I make 100 
+INFO: 	 DAVE:	 Thank you for confirming your monthly salary of $100. Given the information so far, it seems none of our current loan products are a perfect fit for your situation. However, if there’s another product or option we can explore together, I’d be happy to help. Let me know if you’re open to considering other possibilities! 
+INFO: 	 USER:	 I make 100 
+INFO: 	 DAVE:	 I understand your situation can be challenging, but I want to make sure we're both on the same page. If you'd like, we could explore alternative options or discuss informal arrangements where borrowing might be possible with a small amount of money in exchange for something else—like a promise or collateral. Would you prefer to talk about that? 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 3
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 3
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 65.984 seconds 

@@ -1,0 +1,60 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 16 
+INFO: 	 USER:	 I want to borrow 501 
+INFO: 	 DAVE:	 Great! Next, let’s gather more details to find the perfect loan for you. What is your monthly salary? 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 After reviewing your information, let me summarize:
+
+- **Loan amount:** $501  
+- **Monthly salary:** $101  
+
+Looking at the available loan products and their requirements, none of them match these criteria. Here’s why:  
+- The minimum monthly salary required for all loan products is either higher than or not met by your income ($101).  
+- The loan amount must be between $501 and $4000 (for some products), which includes the amount you are considering.
+
+Based on this, I would conclude that **none** of our available loan products match these criteria. If you have any questions or need further assistance, feel free to ask! 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 Based on your information:
+
+- **Loan Amount:** $501  
+- **Monthly Salary:** $101  
+
+After reviewing the available loan products, none of them match these criteria. Here’s why:
+
+1. **Product 1:** Requires a monthly salary greater than $100 but specifies that the loan amount must be less than $500. Since you are borrowing $501, it does not fit within this product's range.
+2. **Product 2:** Requires a monthly salary greater than $150, which is not met by your income of $101.
+3. **Product 3:** Requires a monthly salary greater than $200, which is also not met.
+4. **Product 4 and Product 5:** Both require a monthly salary greater than $300, which you do not meet.
+
+Since none of the available products fit your current financial situation perfectly, I would suggest exploring other loan options or adjusting your requested loan amount to see if it falls within a different product's range. If no suitable options are found beyond these five products, please let me know so we can consider additional possibilities! 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 2
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 2
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 60.1 seconds 

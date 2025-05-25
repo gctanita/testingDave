@@ -1,0 +1,11 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 I would suggest to you PRODUCT_1, that you will have to give back in 3 to 6 months. 
+INFO: 	 ACTUAL RESULT: 	 Product_1 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 USER METRICS 
+[object Object] 
+INFO: 	 DAVE METRICS 
+[object Object] 
+INFO: 	 Scenario duration: 	 18.058 seconds 

@@ -1,0 +1,4 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 I would suggest to you **Product 1**, that you will have to give back in **3 to 6 months**. 

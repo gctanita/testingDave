@@ -1,0 +1,43 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 45 
+INFO: 	 USER:	 I want to borrow 1001 
+INFO: 	 DAVE:	 Great! Moving on, what is your monthly salary? 
+INFO: 	 USER:	 I make 150 
+INFO: 	 DAVE:	 Alright, so far we've got the following information:
+
+- Loan amount requested: **\$1,001**
+- Monthly salary: **\$150**
+- Age: 
+
+Could you please share your age? Once I have that, I can help determine which loan product would be best suited for you. 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 28.236 seconds 

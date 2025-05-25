@@ -1,0 +1,34 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+DEBUG: 	 	 keyword: 	 salary 
+DEBUG: 	 	 key: 	 salary 
+DEBUG: 	 	 added to possibleTopics: 	 salary 
+DEBUG: 	 	 keyword: 	 age 
+DEBUG: 	 	 keyword: 	 married 
+DEBUG: 	 	 added to possibleTopics: 	 user age 
+DEBUG: 	 	 keyword: 	 marital 
+DEBUG: 	 	 key: 	 marriage status 
+DEBUG: 	 	 added to possibleTopics: 	 marriage status 
+DEBUG: 	 	 keyword: 	 amount to borrow 
+DEBUG: 	 	 key: 	 Product_1 
+DEBUG: 	 	 key: 	 amount to borrow 
+DEBUG: 	 	 added to possibleTopics: 	 Product_1 
+DEBUG: 	 	 key: 	 user age 
+DEBUG: 	 	 key: 	 Product_2 
+DEBUG: 	 	 keyword: 	 Product_2 
+DEBUG: 	 	 keyword: 	 product 2 
+DEBUG: 	 	 keyword: 	 Product_1 
+DEBUG: 	 	 keyword: 	 product 3 
+DEBUG: 	 	 keyword: 	 Product_3 
+DEBUG: 	 	 key: 	 Product_3 
+DEBUG: 	 	 keyword: 	 Product_4 
+DEBUG: 	 	 key: 	 Product_4 
+DEBUG: 	 	 keyword: 	 product 4 
+DEBUG: 	 	 keyword: 	 product 5 
+DEBUG: 	 	 key: 	 Product_5 
+DEBUG: 	 	 keyword: 	 Product_5 
+DEBUG: 	 	 keyword: 	 Product X 
+DEBUG: 	 	 keyword: 	 PRODUCT_X 
+DEBUG: 	 	 possibleTopics: 	 salary,user age,marriage status,Product_1 
+DEBUG: 	 	 possibleTopics.length: 	 4 
+DEBUG: 	 	 key: 	 PRODUCT_X 

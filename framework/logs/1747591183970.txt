@@ -1,0 +1,50 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 18 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 Thank you for sharing that information. Next, could you please let me know your monthly salary? This will help us determine the best loan option for you. 
+INFO: 	 USER:	 I make 100 
+INFO: 	 DAVE:	 Okay, I have that too. Now, how old are you?
+
+Great! Now, could you please share your age? This will help us determine the best loan option for you.
+
+---
+
+**Step 4: Ask for Age**
+
+I have all the information I need:
+- Loan sum: $125
+- Monthly salary: $100
+- Age: [Your Answer]
+
+After you provide your age, we can use our internal product knowledge to determine the best loan option. Let's proceed! 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	salary,user age 
+INFO: 	 Scenario duration: 	 42.92 seconds 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 2
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 

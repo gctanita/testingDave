@@ -1,0 +1,11 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 No problem! It looks like you're confirming the amount you want to borrow. Let's move forward with asking for your monthly salary. 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 Alright, we've got all the necessary information except for your age. Let's move on to that next question. Here's a summary of what we have so far:
+
+- **Loan Amount:** $125  
+- **Monthly Salary:** $101  
+
+Now, let's find out your age to determine which loan product would be best suited for you. 

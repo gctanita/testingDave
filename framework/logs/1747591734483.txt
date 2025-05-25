@@ -1,0 +1,53 @@
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 32 
+INFO: 	 DAVE:	 You want to borrow 125. Let’s get more details—I’ll ask you your monthly salary next. 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 To determine the best loan product for you, let me summarize the information we have gathered:
+
+- **Loan Amount Desired:** $125  
+- **Monthly Salary:** $151  
+- **Minimum Age:** ?
+
+Please provide your minimum acceptable age so that I can match you with an appropriate loan product. 
+INFO: 	 USER:	 I am 18 years old 
+INFO: 	 DAVE:	 Thank you for sharing your age! With a loan amount of $125, a monthly salary of $151, an age of 18, let’s check the eligibility against our loan products.
+
+Based on this information, we can match you with **Product_1**. Here's why:
+
+- **Loan Sum:** $125 (Meets criteria for more than $100 and less than $500)  
+- **Monthly Salary:** $151 (Meets criteria for over $100)  
+- **Minimum Age:** 18 (Meets the minimum age requirement of Product_1)
+
+However, to fully assess your eligibility, we also need to know if you are currently married. Once you provide that information, I can give a more precise recommendation! 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 Scenario duration: 	 60.806 seconds 

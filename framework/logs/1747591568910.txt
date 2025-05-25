@@ -1,0 +1,50 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 28 
+INFO: 	 USER:	 I want to borrow 1001 
+INFO: 	 DAVE:	 Great! Now, let's move on to your monthly salary. How much do you earn each month? 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 Alright! Now that we've got your answers, let's move on. You mentioned borrowing \$1001 and earning a monthly salary of \$151. Let me confirm these details again to ensure accuracy before proceeding with the evaluation.
+
+First, the amount you want to borrow: **\$1001**.
+
+Second, your monthly salary: **\$151**.
+
+Could you please verify if these figures are correct? I need this information to determine the best loan option for you. 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 I'm sorry, but based on your answers, none of our available loan products would be a good fit. Here's why:
+
+- **Loan Sum**: \$1001 (Product_3 requires between \$200 and \$2000 for the loan sum).
+- **Monthly Salary**: \$151 (Product_3 requires a monthly salary of at least \$200).
+
+Since your income does not meet the minimum requirements for any of our products, I cannot recommend one. Please consider these factors when choosing a loan option. 
+INFO: 	 
+ACTUAL RESULT: 		 Product_3 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 2
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 2
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 1
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 32.146 seconds 
+INFO: 	 EXPECTED RESULT: 	 Product_3 

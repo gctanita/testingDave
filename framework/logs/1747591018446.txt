@@ -1,0 +1,42 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 13 
+INFO: 	 USER:	 I want to borrow 501 
+INFO: 	 DAVE:	 Great! That means your loan amount of \$501 falls within the range of **Product 4** (Loan sum more than \$500, less than \$4,000). 
+
+To determine the best product for you, I'll need a few more details:  
+- How much do you earn monthly?  
+- What is your age?  
+- Are you married or not?  
+
+Once I have that information, I can confirm if **Product 4** is the best fit for your situation. 
+INFO: 	 
+ACTUAL RESULT: 		 Product_4 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 0
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 0
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 1
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 9.57 seconds 

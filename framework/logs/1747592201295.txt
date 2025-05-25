@@ -1,0 +1,62 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 46 
+INFO: 	 USER:	 I want to borrow 1001 
+INFO: 	 DAVE:	 Got it! Next, could you please share your monthly salary? This will help us determine the best loan option for you. 
+INFO: 	 USER:	 I make 150 
+INFO: 	 DAVE:	 Got it! So far, here are the details:
+
+- Loan amount requested: **$1,001**
+- Monthly salary: **$150**
+
+Now, just one more piece of information is needed to determine the best loan product for you. Could you please share your minimum acceptable payback time in months? This will help us choose between our available products. 
+INFO: 	 USER:	 I make 150 
+INFO: 	 DAVE:	 Based on your monthly salary of **$150**, let's determine the best loan product for you. Could you please share your minimum acceptable payback time in months? This will help us choose between our available products. 
+INFO: 	 USER:	 I make 150 
+INFO: 	 DAVE:	 After carefully reviewing the requirements and the user's financial situation:
+
+**Final Answer:**
+
+No suitable loan product is available for you based on your requested loan amount of $1,001, monthly salary of $150, and the minimum acceptable payback time. 
+INFO: 	 USER:	 I make 150 
+INFO: 	 DAVE:	 **Final Answer:**
+
+No suitable loan product matches all your requirements based on your requested loan sum of $1,001 and a monthly salary of $150. 
+INFO: 	 USER:	 I make 150 
+INFO: 	 DAVE:	 After carefully evaluating the user's request for a loan of $1,001 with a monthly salary of $150, it appears that none of the available loan products meet all the required criteria. Specifically:
+
+- **Product_1** and **Product_2** do not cover the requested loan amount.
+- **Product_3** requires a minimum monthly salary of $200, which exceeds the user's current income.
+- **Product_4** requires a minimum monthly salary of $300, which also exceeds the user's current income. Additionally, **Product_5**, which shares similar requirements with Product_4, further does not meet the financial criteria.
+
+Therefore, based on the provided information and requirements, there is no suitable loan option available for the user at this time. 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 5
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 5
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 102.488 seconds 

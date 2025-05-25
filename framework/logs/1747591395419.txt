@@ -1,0 +1,46 @@
+INFO: 	 SCENARIO: 	 24 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 DAVE:	 Thank you for sharing that! Next, could you please share how much your monthly salary is? This will help us determine the best loan option for you. 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 Based on the current information:
+
+- **Loan amount**: $125
+- **Monthly salary**: $101
+
+**Analysis**:
+- Product 1 fits within the range of $100 < Loan Sum < $500, with a monthly salary exceeding $100. The payback term isn't specified but could be considered shorter due to the small loan amount.
+- Other products require higher income thresholds ($150 or more), which don't align with the current situation.
+
+**Recommendation**: I would suggest Product 1, which has an interest rate of 6%, making it a favorable option given your financial capacity. However, monitor income growth or explore alternative funding options if this isn't sufficient for future needs. 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 38.778 seconds 
+INFO: 	 EXPECTED RESULT: 	 Product_1 

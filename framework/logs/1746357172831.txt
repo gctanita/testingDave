@@ -1,0 +1,37 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 Thank you for sharing that you would like to borrow $125. That falls under Product_1: Loan sum more than 100, less than 500. However, before I can give you a recommendation, I'll need a few more details:
+
+- What is your monthly salary?
+- How old are you?
+- Are you married or not?
+
+Once you provide these details, we can determine the best product for you based on all the criteria. 
+INFO: 	 ACTUAL RESULT: 	 Product_1 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 	 - salary - 0 
+INFO: 	 
+USER METRICS 
+ 
+INFO: 	 	 - user age - 0 
+INFO: 	 	 - amount to borrow - 1 
+INFO: 	 	 - other - 1 
+INFO: 	 	 - otherList - UNKNOWN 
+INFO: 	 	 - salary - 0 
+INFO: 	 	 - marriage status - 0 
+INFO: 	 	 - user age - 0 
+INFO: 	 
+DAVE METRICS 
+ 
+INFO: 	 	 - Product_1 - 1 
+INFO: 	 	 - marriage status - 0 
+INFO: 	 	 - amount to borrow - 0 
+INFO: 	 	 - Product_4 - 0 
+INFO: 	 	 - Product_2 - 0 
+INFO: 	 	 - PRODUCT_X - 0 
+INFO: 	 	 - Product_3 - 0 
+INFO: 	 	 - otherList -  
+INFO: 	 	 - Product_5 - 0 
+INFO: 	 Scenario duration: 	 11.316 seconds 
+INFO: 	 	 - other - 0 

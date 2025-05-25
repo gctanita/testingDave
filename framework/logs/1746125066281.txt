@@ -1,0 +1,18 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 Got it! Moving on to your next question: What is your monthly salary? 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 Alright, moving on from the previous questions:
+
+Next question: How old are you?
+
+Please provide that so I can assist you further. 
+INFO: 	 USER:	 I am 25 years old 
+INFO: 	 DAVE:	 At this point, we have some important information missing: your marital status. This detail is crucial for assessing your risk profile and determining the best loan option for you. Could you please share whether you are currently married or not? Once I have that information, I can provide a more accurate recommendation based on all the details we've gathered so far. 
+INFO: 	 USER:	 Yes, I am married 
+INFO: 	 DAVE:	 I would suggest to you **Product_1**, that you will have to give back in 3 to 6 months. 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 Scenario duration:: 	 47.51 seconds 
+INFO: 	 
+ACTUAL RESULT: 	 Product_1 

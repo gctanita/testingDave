@@ -1,0 +1,71 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 55 
+INFO: 	 USER:	 I want to borrow 201 
+INFO: 	 DAVE:	 Got it! Let's continue with your information. What is your monthly salary? 
+INFO: 	 USER:	 I make 150 
+INFO: 	 DAVE:	 Okay, so far we've established that the customer wants to borrow $201 and they have a monthly income of $150. Now it's time to find out their age because this is an important factor in determining which loan product would be best suited for them.
+
+Please tell me how old you are.
+
+---
+
+### (After they respond)
+
+Based on the information provided:
+- **Loan amount**: \$201
+- **Monthly salary**: \$150
+- **Age**: [Their age]
+- **Marital status**: [Yes/No]
+
+Now, let's review which loan product would best fit these criteria.
+
+---
+
+### (Proceed to recommend a product)
+
+After evaluating the details, I've reviewed all available loan options. Based on your monthly income of \$150 and an age of [Their age], here are the criteria each product must meet:
+
+- **Product 1**: Requires a minimum monthly salary greater than \$100 and no age restriction.
+- **Product 2**: Requires a minimum monthly salary greater than \$150, which you have, but requires an age of at least 18.
+- **Product 3**: Requires a higher income (\$200+) and is more suitable for someone over 18.
+- **Product 4**: Suitable for those with a high income (>\$300) and a longer repayment period (up to 5 years).
+- **Product 5**: Similar criteria as Product 4 but for single applicants.
+
+Considering your age of [Their age], the only product that aligns perfectly with all your requirements is:
+
+---
+
+### Final Recommendation
+
+I would suggest to you **Product X**, that you will have to give back in A to B time. 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 Scenario duration: 	 21.072 seconds 

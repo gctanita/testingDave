@@ -1,0 +1,41 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 1 
+INFO: 	 USER:	 I want to borrow 50 
+INFO: 	 DAVE:	 Got it! That sounds like a manageable amount. What is your monthly salary? 
+INFO: 	 USER:	 I make 101 
+INFO: 	 DAVE:	 Got it! Thanks for providing that information. Just to be thorough, could you also share your age? 
+INFO: 	 USER:	 I am 25 years old 
+INFO: 	 DAVE:	 Based on your information so far—borrowing $50, earning $101 per month, being 25 years old—I need you to confirm if you are married or not (yes or no) before I can provide a recommendation. 
+INFO: 	 USER:	 Yes, I am married 
+INFO: 	 DAVE:	 Based on your information—borrowing $50, earning $101 per month, being 25 years old, and married—I need you to confirm if you are married or not (yes or no) before I can provide a recommendation. 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 1
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 1
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 73.521 seconds 

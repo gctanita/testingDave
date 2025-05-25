@@ -1,0 +1,37 @@
+INFO: 	 SCENARIO: 	 51 
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 USER:	 I want to borrow 200 
+INFO: 	 DAVE:	 I'm sorry, but we'll need one more piece of information from you: your monthly salary. This will help us determine which loan product is most suitable for you based on our internal criteria and eligibility requirements. 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 I'm 18 years old and I am not married. Based on this information and the previous details, let's proceed to the next step. Now, could you please share whether you are currently married or not? 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	 
+INFO: 	 EXPECTED RESULT: 	 Product_1,Product_2 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 39.142 seconds 

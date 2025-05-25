@@ -1,0 +1,41 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 That's great! At $125, you've chosen a loan amount that falls within **Product_1**'s criteria (more than 100 and less than 500). Let's verify the other details we have: 
+
+- Your monthly salary is $300, which is above the minimum requirement of more than $100.  
+- You're 28 years old, meeting the minimum age requirement for Product_1 (16 or older).  
+- You're married, which aligns with the marital status criteria for Product_1.
+
+Based on this information, **Product_1** seems like a perfect fit for your needs! Would you like to explore other options as well? 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 Scenario duration: 	 14.667 seconds 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 0
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 0
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 

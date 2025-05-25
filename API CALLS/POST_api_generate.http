@@ -1,0 +1,44 @@
+POST http://127.0.0.1:11434/api/generate 
+Content-Type: application/json
+
+{
+  "model": "deepseek-r1:1.5b",
+  "prompt": "hello",
+  "stream": false
+}
+
+####
+- I need to borrow 125
+- I have a salay of 101
+- My age is 25
+
+####
+POST http://127.0.0.1:11434/api/chat
+Content-Type: application/json
+
+{
+  "model": "dave",
+  "messages": [
+    {
+      "role": "user",
+      "content": "I want to borrow 125"
+    },
+    {
+      "role": "assistant",
+      "content": "What is your age?"
+    },
+    {
+      "role": "user",
+      "content": "my age is 25"
+    },
+    {
+      "role": "user",
+      "content": "i make 101"
+    }
+  ],
+  "stream": false
+}
+
+
+###
+POST http://127.0.0.1:11434/api/clear

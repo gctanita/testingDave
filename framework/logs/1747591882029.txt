@@ -1,0 +1,41 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 35 
+INFO: 	 USER:	 I want to borrow 50 
+INFO: 	 DAVE:	 I understand you want to borrow \$50. Next, could you please share your approximate monthly salary? 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 I'm sorry, but based on the information provided (loan amount: \$50 and monthly salary: \$151), it appears that none of the suggested loan products are a perfect fit. However, I recommend exploring other options such as microloans or alternative financial solutions tailored to smaller amounts. 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 Thank you for providing more details. Based on this information (loan amount: \$50 and monthly salary: \$151), it appears that **Product_2** is a suitable fit for your situation. Please provide additional details such as age, marital status, and preferred payback time to help finalize the recommendation.
+
+I'm sorry my previous response was incorrect. My internal knowledge tells me Product 2 requires a monthly salary greater than \$150, which you have met with your \$151 income. I apologize for any confusion earlier. 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 2
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 2
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 1
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 29.9 seconds 
+INFO: 	 
+ACTUAL RESULT: 		 Product_2 

@@ -1,0 +1,11 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 Got it! Thanks for sharing the amount you'd like to borrow: **\$125**. Now, let's get some more details to help you out.
+
+First, could you please share your monthly salary? This will help us understand how stable and reliable you are financially. Once you provide that, I'll ask about your age next. Thanks! 
+INFO: 	 USER:	 I am 25 years old 
+INFO: 	 DAVE:	 Thank you for sharing your age: **25 years old**. Now, could you please provide your monthly salary? This will help us evaluate your financial stability and determine if a loan in the amount of \$125 is suitable for you. Once you share that information, I'll ask about your marital status next. Thanks! 
+INFO: 	 ACTUAL RESULT: 	 ERROR: failed to detect correct topic from list: 	salary,marriage status 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 Scenario duration: 	 63.973 seconds 

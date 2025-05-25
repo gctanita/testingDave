@@ -1,0 +1,49 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 USER:	 I want to borrow 50 
+INFO: 	 SCENARIO: 	 26 
+INFO: 	 DAVE:	 I understand you would like to borrow 50. However, based on our internal guidelines, none of our loan products fit this amount. Let's proceed with the next question: What is your monthly salary? 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 Alright, let's continue gathering information about you. The next step after discussing your monthly salary is asking for your age. Please share your age with me.
+
+**Step 3: Age**
+
+How old are you? 
+INFO: 	 USER:	 I am 25 years old 
+INFO: 	 DAVE:	 After reviewing your information:
+
+- **Loan Amount**: 50 (does not meet any product’s minimum requirement)
+- **Monthly Salary**: 151 (does not meet any product’s minimum requirement)
+- **Age**: 25 (meets all products’ requirements)
+
+Since none of the products fit all criteria, no loan options are available based on your information. 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 68.271 seconds 

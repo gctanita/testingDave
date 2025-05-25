@@ -1,0 +1,54 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 SCENARIO: 	 48 
+INFO: 	 DAVE:	 That sounds good! Just to be thorough, could you also share your monthly salary? 
+INFO: 	 USER:	 I make 151 
+INFO: 	 DAVE:	 Alright, let's continue gathering the necessary information.
+
+**How much money would you like to borrow?**  
+You mentioned **125**, which falls within our range of more than 100 and less than 500 for Product_1 or Product_2. Let me confirm if this is correct.
+
+---
+
+**Monthly salary:**  
+You reported **151**, which is above the minimum required for certain products. Let's proceed with that.
+
+---
+
+**Age:**  
+Please share your age so we can ensure it meets our eligibility criteria.
+
+---
+
+After you provide your age, I'll determine the best product option for you based on all provided information. 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 EXPECTED RESULT: 	 Product_1,Product_2 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 Scenario duration: 	 14.788 seconds 

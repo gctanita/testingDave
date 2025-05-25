@@ -1,0 +1,45 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 30 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 Thank you for sharing that! Next, could you please share your monthly salary? This will help us determine if we can recommend one of our loan products tailored to your situation. 
+INFO: 	 USER:	 I make 150 
+INFO: 	 DAVE:	 Alright, so far we know you're looking to borrow $125 and you have a monthly salary of $150. Let's continue with the next question: Could you share your age? This information is important for assessing your ability to repay the loan.
+
+Please go ahead and let me know how old you are. 
+INFO: 	 USER:	 I am 25 years old 
+INFO: 	 DAVE:	 Thank you! Next, could you please share if you are married? This information is important for assessing your eligibility and interest rates. Once you provide that, we can determine the best loan product for you. 
+INFO: 	 USER:	 No, I am not married 
+INFO: 	 DAVE:	 Based on your provided information—loan amount of $125, monthly salary of $150, age of 25, and marital status of not being married—I recommend:
+
+**I would suggest to you Product_2**, that you will have to give back in 3 months to 9 months. 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 
+ACTUAL RESULT: 		 Product_2 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 1
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 1
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 1
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 69.916 seconds 

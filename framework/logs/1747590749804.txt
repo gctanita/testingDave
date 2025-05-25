@@ -1,0 +1,37 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 5 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 I'd like to know your monthly salary so we can determine the best loan option for you. 
+INFO: 	 USER:	 I make 100 
+INFO: 	 DAVE:	 I'm sorry, but to provide an accurate recommendation, I need additional information such as your age and marital status. Could you please share those details? 
+INFO: 	 
+ACTUAL RESULT: 		 ERROR: failed to detect correct topic from list: 	user age,marriage status 
+INFO: 	 EXPECTED RESULT: 	 Not Eligible 
+INFO: 	 Scenario duration: 	 23.619 seconds 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 1
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 1
+	 - user age - 1
+	 - marriage status - 1
+	 - amount to borrow - 0
+	 - Product_1 - 0
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 

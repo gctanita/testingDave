@@ -1,0 +1,106 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 23 
+DEBUG: 	 detectTopic function 
+DEBUG: 	 	 key: 	 salary 
+DEBUG: 	 	 keyword: 	 salary 
+DEBUG: 	 	 key: 	 user age 
+DEBUG: 	 	 keyword: 	 old 
+DEBUG: 	 	 added to possibleTopics: 	 salary 
+DEBUG: 	 	 keyword: 	 married 
+DEBUG: 	 	 key: 	 marriage status 
+DEBUG: 	 	 keyword: 	 marital status 
+DEBUG: 	 	 keyword: 	 marital 
+DEBUG: 	 	 key: 	 amount to borrow 
+DEBUG: 	 	 key: 	 Product_1 
+DEBUG: 	 	 keyword: 	 amount to borrow 
+DEBUG: 	 	 keyword: 	 Product_1 
+DEBUG: 	 	 keyword: 	 age 
+DEBUG: 	 	 keyword: 	 product 1 
+DEBUG: 	 	 key: 	 Product_2 
+DEBUG: 	 	 keyword: 	 Product_2 
+DEBUG: 	 	 keyword: 	 product 2 
+DEBUG: 	 	 key: 	 Product_3 
+DEBUG: 	 	 keyword: 	 Product_3 
+DEBUG: 	 	 keyword: 	 product 3 
+DEBUG: 	 	 key: 	 Product_4 
+DEBUG: 	 	 keyword: 	 product 4 
+DEBUG: 	 	 keyword: 	 Product_4 
+DEBUG: 	 	 key: 	 Product_5 
+DEBUG: 	 	 keyword: 	 product 5 
+DEBUG: 	 	 keyword: 	 Product_5 
+DEBUG: 	 	 key: 	 PRODUCT_X 
+DEBUG: 	 	 keyword: 	 Product X 
+DEBUG: 	 	 keyword: 	 PRODUCT_X 
+DEBUG: 	 	 possibleTopics: 	 salary 
+DEBUG: 	 	 possibleTopics.length: 	 1 
+DEBUG: 	 detectTopic function 
+DEBUG: 	 	 key: 	 salary 
+DEBUG: 	 	 keyword: 	 make 
+DEBUG: 	 	 keyword: 	 salary 
+DEBUG: 	 	 keyword: 	 income 
+DEBUG: 	 	 key: 	 user age 
+DEBUG: 	 	 keyword: 	 monthly income 
+DEBUG: 	 	 added to possibleTopics: 	 user age 
+DEBUG: 	 	 keyword: 	 old 
+DEBUG: 	 	 key: 	 marriage status 
+DEBUG: 	 	 keyword: 	 age 
+DEBUG: 	 	 keyword: 	 marital 
+DEBUG: 	 	 keyword: 	 marital status 
+DEBUG: 	 	 keyword: 	 amount to borrow 
+DEBUG: 	 	 keyword: 	 Product_1 
+DEBUG: 	 	 key: 	 amount to borrow 
+DEBUG: 	 	 key: 	 Product_1 
+DEBUG: 	 	 keyword: 	 product 1 
+DEBUG: 	 	 keyword: 	 married 
+DEBUG: 	 	 keyword: 	 Product_2 
+DEBUG: 	 	 key: 	 Product_2 
+DEBUG: 	 	 key: 	 Product_3 
+DEBUG: 	 	 keyword: 	 product 2 
+DEBUG: 	 	 key: 	 Product_4 
+DEBUG: 	 	 keyword: 	 Product_3 
+DEBUG: 	 	 keyword: 	 product 4 
+DEBUG: 	 	 keyword: 	 product 3 
+DEBUG: 	 	 keyword: 	 Product_5 
+DEBUG: 	 	 keyword: 	 Product_4 
+DEBUG: 	 	 key: 	 Product_5 
+DEBUG: 	 	 keyword: 	 product 5 
+DEBUG: 	 	 keyword: 	 Product X 
+DEBUG: 	 	 keyword: 	 PRODUCT_X 
+DEBUG: 	 	 key: 	 PRODUCT_X 
+DEBUG: 	 	 possibleTopics: 	 user age 
+DEBUG: 	 	 possibleTopics.length: 	 1 
+DEBUG: 	 detectTopic function 
+DEBUG: 	 	 key: 	 salary 
+DEBUG: 	 	 keyword: 	 income 
+DEBUG: 	 	 keyword: 	 monthly income 
+DEBUG: 	 	 keyword: 	 make 
+DEBUG: 	 	 keyword: 	 old 
+DEBUG: 	 	 keyword: 	 salary 
+DEBUG: 	 	 key: 	 marriage status 
+DEBUG: 	 	 key: 	 user age 
+DEBUG: 	 	 keyword: 	 marital 
+DEBUG: 	 	 keyword: 	 marital status 
+DEBUG: 	 	 key: 	 amount to borrow 
+DEBUG: 	 	 keyword: 	 age 
+DEBUG: 	 	 key: 	 Product_1 
+DEBUG: 	 	 keyword: 	 married 
+DEBUG: 	 	 keyword: 	 Product_1 
+DEBUG: 	 	 keyword: 	 amount to borrow 
+DEBUG: 	 	 keyword: 	 Product_2 
+DEBUG: 	 	 added to possibleTopics: 	 Product_1 
+DEBUG: 	 	 key: 	 Product_2 
+DEBUG: 	 	 keyword: 	 product 2 
+DEBUG: 	 	 keyword: 	 Product_3 
+DEBUG: 	 	 key: 	 Product_3 
+DEBUG: 	 	 keyword: 	 product 3 
+DEBUG: 	 	 keyword: 	 product 4 
+DEBUG: 	 	 key: 	 Product_5 
+DEBUG: 	 	 key: 	 Product_4 
+DEBUG: 	 	 keyword: 	 Product_5 
+DEBUG: 	 	 keyword: 	 Product_4 
+DEBUG: 	 	 key: 	 PRODUCT_X 
+DEBUG: 	 	 keyword: 	 product 5 
+DEBUG: 	 	 possibleTopics: 	 Product_1 
+DEBUG: 	 	 keyword: 	 PRODUCT_X 
+DEBUG: 	 	 keyword: 	 Product X 
+DEBUG: 	 	 possibleTopics.length: 	 1 

@@ -1,0 +1,35 @@
+INFO: 	 CONVERSATION TEMPLATE: 	 001 
+INFO: 	 SCENARIO: 	 42 
+INFO: 	 USER:	 I want to borrow 125 
+INFO: 	 DAVE:	 I would suggest to you **Product_1**, which is available in amounts between $100 and $500, and requires a monthly salary of more than $100. Your requested loan amount of $125 fits perfectly within these parameters. The interest rate for this product is 6%, making it a good option for you to consider. 
+INFO: 	 
+ACTUAL RESULT: 		 Product_1 
+INFO: 	 EXPECTED RESULT: 	 Product_1 
+INFO: 	 
+USER METRICS 
+
+	 - salary - 0
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 1
+	 - other - 1
+	 - otherList - UNKNOWN
+
+
+DAVE METRICS 
+
+	 - salary - 0
+	 - user age - 0
+	 - marriage status - 0
+	 - amount to borrow - 0
+	 - Product_1 - 1
+	 - Product_2 - 0
+	 - Product_3 - 0
+	 - Product_4 - 0
+	 - Product_5 - 0
+	 - PRODUCT_X - 0
+	 - other - 0
+	 - otherList - 
+
+ 
+INFO: 	 Scenario duration: 	 11.44 seconds 
