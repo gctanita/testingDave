@@ -265,12 +265,14 @@ $$
 $$
 
 **Example**:
+
 $$
 A = [1, 2, 3]
 $$
 $$
 B = [3, 4, 5]
 $$
+
 - Step 1: Compute the dot product of **A** and **B**:
 $$
 \vec{A} \cdot \vec{B} = \sum_{i=1}^{n} A_i B_i =(1 * 4) + (2 * 5) + (3 * 6) = 4 + 10 + 18 = 32
