@@ -262,7 +262,7 @@ const topicSamples = {
 Now, for cosine similarity to work, we need a function that implements the cosine similarity formula that looks like this:
 
 $$
-\text{cosine\_similarity} = \cos(\theta) = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}}
+\text{cosine similarity} = \cos(\theta) = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}}
 $$
 
 **Example**:
@@ -281,22 +281,24 @@ $$
 $$
 
 - Step 2: Compute the magnitudes
-    - Magnitude of **A**:
 
-    $$
-    \|\vec{A}\| = \sqrt{\sum_{i=1}^{n} A_i^2} = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{1 + 4 + 9} = \sqrt{14}
-    $$
+Magnitude of **A**:
 
-    - Magnitude of **B**:
+$$
+\|\vec{A}\| = \sqrt{\sum_{i=1}^{n} A_i^2} = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{1 + 4 + 9} = \sqrt{14}
+$$
 
-    $$
-    \|\vec{B}\| = \sqrt{\sum_{i=1}^{n} B_i^2} = \sqrt{4^2 + 5^2 + 6^2} = \sqrt{16 + 25 + 36} = \sqrt{77}
-    $$
+
+Magnitude of **B**:
+
+$$
+\|\vec{B}\| = \sqrt{\sum_{i=1}^{n} B_i^2} = \sqrt{4^2 + 5^2 + 6^2} = \sqrt{16 + 25 + 36} = \sqrt{77}
+$$
 
 - Step 3: Plug the values into the formula
 
 $$
-\text{cosine\_similarity} = \cos(\theta) = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}} = \frac{32}{\sqrt{14} * \sqrt{77}} = \frac{32}{\sqrt{1078}}
+\text{cosine similarity} = \cos(\theta) = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}} = \frac{32}{\sqrt{14} * \sqrt{77}} = \frac{32}{\sqrt{1078}}
 $$
 
 - Step 4: Do the math
@@ -311,7 +313,7 @@ $$
 - Conclusion:
 
 $$
-\text{cosine\_similarity} = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}}\approx 0.9759
+\text{cosine similarity} = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}}\approx 0.9759
 $$
 
 The final value tells you how similar the two vectors (i.e., sentences) are:
