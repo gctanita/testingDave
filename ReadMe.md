@@ -260,6 +260,7 @@ const topicSamples = {
 ``` 
 
 Now, for cosine similarity to work, we need a function that implements the cosine similarity formula that looks like this:
+
 $$
 \text{cosine\_similarity} = \cos(\theta) = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}}
 $$
@@ -274,9 +275,11 @@ B = [3, 4, 5]
 $$
 
 - Step 1: Compute the dot product of **A** and **B**:
+
 $$
 \vec{A} \cdot \vec{B} = \sum_{i=1}^{n} A_i B_i =(1 * 4) + (2 * 5) + (3 * 6) = 4 + 10 + 18 = 32
 $$
+
 - Step 2: Compute the magnitudes
     - Magnitude of **A**:
 
@@ -285,16 +288,19 @@ $$
     $$
 
     - Magnitude of **B**:
+
     $$
     \|\vec{B}\| = \sqrt{\sum_{i=1}^{n} B_i^2} = \sqrt{4^2 + 5^2 + 6^2} = \sqrt{16 + 25 + 36} = \sqrt{77}
     $$
 
 - Step 3: Plug the values into the formula
+
 $$
 \text{cosine\_similarity} = \cos(\theta) = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}} = \frac{32}{\sqrt{14} * \sqrt{77}} = \frac{32}{\sqrt{1078}}
 $$
 
 - Step 4: Do the math
+
 $$
 \sqrt{1078} \approx 32.81
 $$
@@ -303,6 +309,7 @@ $$
 $$
 
 - Conclusion:
+
 $$
 \text{cosine\_similarity} = \frac{\vec{A} \cdot \vec{B}}{\|\vec{A}\| \|\vec{B}\|} = \frac{\sum_{i=1}^{n} A_i B_i}{\sqrt{\sum_{i=1}^{n} A_i^2} * \sqrt{\sum_{i=1}^{n} B_i^2}}\approx 0.9759
 $$
